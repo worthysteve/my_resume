@@ -62,6 +62,7 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right  " });
 
 const typed = new Typed(".multiple-text", {
   strings: [
+<<<<<<< HEAD
     "a Machine Learning Enthusiast",
     "Data Science Enthusiast,",
     "a Web Developer",
@@ -69,6 +70,14 @@ const typed = new Typed(".multiple-text", {
     "a Web Designer",
     "an ICT Project Management Enthusiast, and",
     "an M.Sc. Information Systems student at Gazi University",
+=======
+    "a Web Developer",
+    "a Web Designer",
+    "an ICT Project Management Specialist",
+    "a UX Designer",
+    "a Graphic Designer, and",
+    "a masters in Information Systems candidate at Gazi University",
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   ],
   typeSpeed: 100,
   backSpeed: 100,
@@ -78,6 +87,7 @@ const typed = new Typed(".multiple-text", {
 
 const aboutTyped = new Typed(".about-text", {
   strings: [
+<<<<<<< HEAD
     "a Machine Learning Enthusiast",
     "Data Science Enthusiast,",
     "a Web Developer",
@@ -85,6 +95,14 @@ const aboutTyped = new Typed(".about-text", {
     "a Web Designer",
     "an ICT Project Management Enthusiast, and",
     "an M.Sc. Information Systems student at Gazi University",
+=======
+    "a Web Developer",
+    "a Web Designer",
+    "an ICT Project Management Specialist",
+    "a UX Designer",
+    "a Graphic Designer, and",
+    "a masters in Information Systems candidate at Gazi University",
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   ],
   typeSpeed: 100,
   backSpeed: 100,

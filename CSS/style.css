@@ -12,6 +12,7 @@
 }
 
 :root {
+<<<<<<< HEAD
   /* --bg-color: #fff; */
   --bg-color: #f4f2f2;
   /* --bg-color: #1f242d; */
@@ -20,6 +21,12 @@
   --text-color-sub: #333;
   --main-color: #0ea293;
   /* --header-color: #1a5f7a; */
+=======
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #0ea293;
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   --header-color: #1a5f7a;
 }
 
@@ -33,7 +40,11 @@ html {
 /* ========================================= BODY ======================================================= */
 body {
   background: var(--bg-color);
+<<<<<<< HEAD
   color: var(--text-color-sub);
+=======
+  color: var(--text-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
 }
 
 /* ========================================== SECTION ===================================================== */
@@ -61,8 +72,13 @@ section {
 }
 .logo {
   font-size: 4rem;
+<<<<<<< HEAD
   color: var(--bg-color);
   font-weight: 700;
+=======
+  color: var(--text-color);
+  font-weight: 600;
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   cursor: default;
 }
 
@@ -78,7 +94,11 @@ section {
 
 .navbar a {
   font-size: 2rem;
+<<<<<<< HEAD
   color: var(--bg-color);
+=======
+  color: var(--text-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   margin-left: 4rem;
   transition: 0.3s;
 }
@@ -158,7 +178,11 @@ section {
   height: 45px;
   background: var(--main-color);
   font-size: 2.6rem;
+<<<<<<< HEAD
   color: var(--text-color-sub);
+=======
+  color: var(--text-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,14 +224,22 @@ section {
 
 .form-box h2 {
   /* font-size: 5rem; */
+<<<<<<< HEAD
   color: var(--header-color);
+=======
+  color: var(--main-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   text-align: center;
 }
 .login-input-box {
   position: relative;
   width: 100%;
   height: 50px;
+<<<<<<< HEAD
   border-bottom: 2px solid var(--header-color);
+=======
+  border-bottom: 2px solid var(--second-bg-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   margin: 30px 0;
 }
 
@@ -379,7 +411,11 @@ span {
   border-radius: 4rem;
   box-shadow: 0 0 1rem var(--main-color);
   font-size: 1.6rem;
+<<<<<<< HEAD
   color: var(--bg-color);
+=======
+  color: var(--second-bg-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.5s ease;
@@ -394,7 +430,11 @@ span {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+<<<<<<< HEAD
   background: var(--bg-color);
+=======
+  background: var(--second-bg-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
 }
 
 .about-image img {
@@ -437,16 +477,28 @@ span {
 
 .services-container .services-box {
   flex: 1 1 30rem;
+<<<<<<< HEAD
   background: var(--bg-color);
   padding: 3rem 2rem 4rem;
   border-radius: 2rem;
   text-align: center;
   border: 0.4rem solid var(--main-color);
+=======
+  background: var(--second-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.4rem solid var(--bg-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   transition: 0.5s ease;
 }
 
 .services-container .services-box:hover {
+<<<<<<< HEAD
   border-color: var(--header-color);
+=======
+  border-color: var(--main-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
   transform: scale(1.02);
 }
 .services-box i {
@@ -464,7 +516,11 @@ span {
 }
 
 .portfolio {
+<<<<<<< HEAD
   background: var(--bg-color);
+=======
+  background: var(--second-bg-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
 }
 
 /* .portfolio h2 {
@@ -590,8 +646,12 @@ span {
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
+<<<<<<< HEAD
   background: var(--header-color);
   color: var(--text-color);
+=======
+  background: var(--second-bg-color);
+>>>>>>> 2c126b2dff6dd530ca35b98b517d44b883954343
 }
 
 .footer-text p {
